@@ -1,0 +1,64 @@
+nav {
+    color: #393d3f;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #002E99;
+    margin: 0 10px;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.logo-span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #ABC4FF;
+    margin-left: 5px;
+
+}
+
+.logo-span img {
+    height: 35px;
+}
+
+.active {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.active:hover {
+    cursor: default;
+}
+
+
+/* responsive styles */
+@media only screen and (max-width: 600px) {
+
+    nav {
+        margin-bottom: 0;
+    }
+
+    .logo-span {
+        display: none;
+    }
+
+    .link-span {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav a {
+        margin: 0;
+    }
+}

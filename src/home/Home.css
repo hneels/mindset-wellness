@@ -1,0 +1,53 @@
+.timer {
+    font-family: 'Nunito', sans-serif;
+    font-size: 4em;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+
+.buttons img {
+    display: inline;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.enabled:hover {
+    cursor: pointer;
+}
+
+
+#musicChoice {
+    outline: 0;
+    border: none;
+    border-radius: 10px;
+    background: #393d3f;
+    width: 200px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+}
+
+
+/* styles for disabled play/stop "buttons" - add filter to SVG */
+.disabled {
+    filter: brightness(0) saturate(100%) invert(98%) sepia(70%) saturate(5237%) hue-rotate(295deg) brightness(112%) contrast(103%);
+}
+
+.disabled:hover {
+    cursor: not-allowed !important;
+}
+
+/* responsive styles */
+@media only screen and (max-width: 600px) {
+
+    .timer-buttons {
+        flex-direction: column;
+
+    }
+}

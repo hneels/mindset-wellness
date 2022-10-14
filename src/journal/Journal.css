@@ -1,0 +1,95 @@
+.wrapper {
+    display: flex;
+    height: 90vh;
+}
+
+
+
+textarea {
+    width: 500px;
+    height: 400px;
+    font-family: 'Inter', sans-serif;
+    color: #393d3f;
+    padding: 5px;
+}
+
+textarea:focus {
+    outline: none;
+    border: 2px solid #002E99;
+}
+
+.buttons button {
+    color: #393d3f;
+    font-family: 'Nunito', sans-serif;
+    background-color: #ABC4FF;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+}
+
+#cancel-button {
+    background-color: #FFCBAD;
+}
+
+
+.sidebar {
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid #ABC4FF;
+    overflow: scroll;
+}
+
+.sidebar h3 {
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+
+.sidebar-entry {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+}
+
+.sidebar-entry:hover {
+    cursor: pointer;
+}
+
+.selected-entry {
+    color: white;
+    background-color: #002E99;
+}
+
+.past-entry {
+    text-align: left;
+}
+
+
+/* responsive styles */
+@media only screen and (max-width: 650px) {
+
+    textarea {
+        width: 95%;
+    }
+
+    .wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .sidebar {
+        width: 100%;
+        border-right: none;
+        border-top: 1px solid #ABC4FF;
+    }
+
+    textarea {
+        height: 200px;
+    }
+}

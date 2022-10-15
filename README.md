@@ -50,7 +50,7 @@ The following are topics and tools from Boston University's MET CS701 that are i
 
 **Module 2 topics**
 * LocalStorage (journal page)
-* Geolocation API (parks page
+* Geolocation API (parks page)
 * Google map API and adding markers (parks page)
 * setTimeout and setInterval (home page)
 

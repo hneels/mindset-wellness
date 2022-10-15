@@ -68,6 +68,17 @@ The following are topics and tools from Boston University's MET CS701 that are i
 * React, react-router-dom, and react-google-maps/api
 * mobile-responsive flexible layout and accessibility
 
+<hr>
+
+## Resources
+
+Thanks to the following tutorials for helping me learn about React and react-google-maps/api:
+
+* https://scrimba.com/learn/learnreact
+* https://youtu.be/iP3DnhCUIsE
 
 <hr>
+
+## BU Academic Conduct Code
+
 Please note that this was a final project for BU MET CS701. I encourage you to explore it and use any pieces you find useful, but copying any portion and submitting it as your own work is a violation of Boston University's academic conduct code. Thanks for understanding!

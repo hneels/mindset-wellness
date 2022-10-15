@@ -57,8 +57,8 @@ The following are topics and tools from Boston University's MET CS701 that are i
 
 **Module 3-5 topics**
 * Event and data binding in front-end frameworks (whole app)
-* Components (props in React) (whole app)
-* Parent-child component interaction (parks and journal pages)
+* Framework components (whole app)
+* Parent-child component interaction (props in React) (parks and journal pages)
 * Processing form data in front-end frameworks (home page, journal page)
 * Fetching from APIs: Google Places API, gratitude API (parks page, journal page)
 * SPA routing in front-end frameworks (Nav component, App component)

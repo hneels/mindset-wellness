@@ -1,9 +1,10 @@
-# Mindset
-## A mental health web app in React
+# MindSet: a mental health app in React
 
-by Hope Neels
+It's hosted on Netlify, [take a look!](https://mindset-wellness.netlify.app/)
 
+Or check out [this video walkthrough](https://youtu.be/h1REpJutTI4) for more details about the APIs and packages I used
 
+<hr>
 
 ## How to run
 You can run this on your own machine by cloning this repo, running "npm install" to install the dependencies listed in package.json, and serving on your localhost with Live Server, MAMP, or equivalent. However, you'll need to create your own API keys for the RapidAPI Gratitude API [here](https://rapidapi.com/sammacfarlane23/api/gratitude-questions/) and Google Maps/ Google Places APIs [here](https://developers.google.com/maps/documentation/javascript/get-api-key). An easier option is to check out this app where it's hosted on Netlify: https://mindset-wellness.netlify.app/

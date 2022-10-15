@@ -14,7 +14,7 @@ You can run this on your own machine by cloning this repo, running "npm install"
 
 The home page of this app is a meditation zone where users can choose between Rainforest, Pink Noise, and Ocean Waves soundtracks. The audio loops for an uninterrupted meditation experience. Pressing play begins a meditation timer and starts the audio (though users can switch between audio choices midway through the meditation). Pressing stop ends the timer and audio, displaying the total elapsed meditation time.
 
-<img src="./readme-screenshots/page1.png" width="400">
+<img src="./readme-screenshots/page1.png" width="500">
 
 <hr>
 
@@ -22,7 +22,7 @@ The home page of this app is a meditation zone where users can choose between Ra
 
 Clicking "Fresh Air" in the navbar takes you to a park locator. Users must allow browser geolocation for this page to work as expected. The app retrieves the user's coordinates and interfaces with the Google Maps API to display their location on a map with a marker, then leverages the Google Places API's Nearby Search request to display the five parks closest to their location, with clickable/closable info windows containing the park's name and vicinity. It's important that this page uses the Nearby Search request rather than Find Place request, so that only places of *type* park are displayed (and not, say, parking lots).
 
-<img src="./readme-screenshots/page2.png" width="400">
+<img src="./readme-screenshots/page2.png" width="500">
 
 <hr>
 
@@ -30,11 +30,11 @@ Clicking "Fresh Air" in the navbar takes you to a park locator. Users must allow
 
 The third page of this app is a gratitude journal which pulls a random question designed to inspire feelings of gratitude from the RapidAPI endpoint linked above. Users can reflect on the question and save their written response to the journal.
 
-<img src="./readme-screenshots/page3.png" width="400">
+<img src="./readme-screenshots/page3.png" width="500">
 
 Saved journal entries are retained in LocalStorage so users can review their past answers. Saving a completed journal entry loads a new question from the API. When saved journal entries exist in LocalStorage, the app layout changes so users can toggle between past entries and new submissions.
 
-<img src="./readme-screenshots/page3-2.png" width="400">
+<img src="./readme-screenshots/page3-2.png" width="500">
 
 <hr>
 

@@ -5,7 +5,6 @@ const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric
 
 function PastEntry(props) {
     return (
-        // TODO format this to left instead of center
         <section className="centered">
 
             <h1>Gratitude Journal</h1>

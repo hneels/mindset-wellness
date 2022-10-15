@@ -33,7 +33,6 @@ function Sidebar(props) {
     )
 }
 
-// TODO implement scrollbar so sidebar doesn't exceed x height
 
 
 export default Sidebar
